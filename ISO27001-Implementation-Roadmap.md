@@ -1,14 +1,14 @@
 # ISO/IEC 27001:2022 Implementation Roadmap
 ### A phased ISMS rollout for a small e-commerce retailer, starting from zero
 
-**Author:** Sharu Janakiraman
+**Author:** Sharumathiselvi Janakiraman
 **Framework reference:** ISO/IEC 27001:2022, guided by the ISACA Germany Chapter Implementation Guide (2022)
 
 ---
 
 ## 1. Purpose of this project
 
-This is a self-directed portfolio project. It applies the building blocks of an ISMS described in ISO/IEC 27001:2022 to a realistic, small e-commerce business that has no formal information security program today. The goal is to demonstrate a practical, phased path from "no ISMS" to "audit-ready," including scope definition, risk assessment, control selection, documentation, and continual improvement — the same lifecycle described in section 3 of the ISACA Implementation Guide.
+This is a self-directed portfolio project. It applies the building blocks of an ISMS described in ISO/IEC 27001:2022 to a realistic, small e-commerce business that has no formal information security program today. The goal is to demonstrate a practical, phased path from "no ISMS" to "audit-ready," including scope definition, risk assessment, control selection, documentation, and continual improvement of the same lifecycle described in section 3 of the ISACA Implementation Guide.
 
 The company used below, **SMSMarket**, is fictional but modeled on real challenges typical of a small retail/e-commerce business: a product catalog synced across systems, a point-of-sale (POS) import pipeline, customer and payment data, and a small IT team with no dedicated security function.
 
@@ -26,7 +26,7 @@ The company used below, **SMSMarket**, is fictional but modeled on real challeng
 | **Current state** | No ISMS, no formal risk register, ad hoc IT practices, no dedicated security role |
 | **Trigger for the project** | A key B2B client has requested evidence of information security controls before renewing a contract |
 
-This profile draws on skills I've developed in similar contexts — data integrity auditing, POS/import pipeline troubleshooting, and multi-system product data synchronization — so the risk scenarios below are grounded in plausible, concrete situations rather than abstract examples.
+This profile draws on skills I've developed in similar contexts - data integrity auditing, POS/import pipeline troubleshooting, and multi-system product data synchronization; so the risk scenarios below are grounded in plausible, concrete situations rather than abstract examples.
 
 ---
 
@@ -56,7 +56,7 @@ Following the guidance on defining scope through an environment and requirements
 
 ---
 
-## 4. Implementation approach — phased roadmap
+## 4. Implementation approach - phased roadmap
 
 The rollout follows the PDCA cycle described in Section 3.14 of the guide, broken into six phases over approximately 12 months. This mirrors how a small company with no existing ISMS would realistically build one incrementally, rather than attempting everything simultaneously.
 
@@ -71,12 +71,12 @@ Phase 6: Review & Improve     (Month 12+, ongoing)
 
 ---
 
-### Phase 1 — Foundation (Context, Leadership, Policy)
+### Phase 1 - Foundation (Context, Leadership, Policy)
 
 **Building blocks addressed:** 3.1 Context of the Organization, 3.2 Leadership and Commitment, 3.4 IS Policy, 3.5 Roles & Responsibilities
 
 **Activities:**
-1. Conduct the environment and requirements analysis (Section 3.1) — map internal departments (IT, customer service, finance) and external parties (payment processor, hosting provider, logistics partner) relevant to the ISMS.
+1. Conduct the environment and requirements analysis (Section 3.1) - map internal departments (IT, customer service, finance) and external parties (payment processor, hosting provider, logistics partner) relevant to the ISMS.
 2. Secure top management sponsorship. At SMSMarket's size, "top management" is the founder/CEO — per the guide's note that top management does not have to mean group-level leadership, only whoever controls resourcing for the scope in question.
 3. Draft the Information Security Policy (Section 3.4) — a short, company-specific document, not a generic template, stating management's commitment to the ISMS and its continuous improvement.
 4. Define roles: since SMSMarket has no dedicated security hire, assign the IT Lead as interim Information Security Officer (ISO), with the CEO as executive sponsor, avoiding the conflict-of-interest patterns flagged in Section 3.5 (e.g., ISO and IT Manager should not be the same person long-term, but is an acceptable interim step for a company this size).
@@ -85,7 +85,7 @@ Phase 6: Review & Improve     (Month 12+, ongoing)
 
 ---
 
-### Phase 2 — Risk Assessment & Treatment
+### Phase 2 - Risk Assessment & Treatment
 
 **Building block addressed:** 3.6 Risk Management
 
@@ -94,7 +94,7 @@ Following the four-step risk management process from the guide (identification, 
 
 1. **Risk identification** via structured interviews with the IT Lead, customer service manager, and finance — the guide's recommended approach of combining multiple stakeholder viewpoints rather than a single technical assessment.
 2. **Risk analysis** using a simplified 4x4 matrix (probability × impact), avoiding the "default to the middle" problem the guide flags with odd-numbered matrices.
-3. **Risk register** — see the sample below.
+3. **Risk register** - see the sample below.
 
 **Sample risk register (excerpt):**
 
@@ -112,7 +112,7 @@ Following the four-step risk management process from the guide (identification, 
 
 ---
 
-### Phase 3 — Control Selection (Statement of Applicability)
+### Phase 3 - Control Selection (Statement of Applicability)
 
 **Building block addressed:** Annex A controls, Statement of Applicability (Section 3.1, 6.1.3)
 
@@ -128,14 +128,14 @@ For each risk in the register, map to relevant Annex A controls and justify incl
 | 5.9 Inventory of information and assets | Yes | Required to know what data exists before protecting it | R-03 |
 | 8.16 Monitoring activities | Yes | Detect anomalies in POS import pipeline | R-01 |
 | 8.9 Configuration management | Yes | Google Apps Script automation to synchronize product data (prices, names, barcodes) across Google Sheets, replacing error-prone manual updates | R-01 |
-| 7.4 Physical security monitoring | No | No physical premises with sensitive processing in scope | — |
-| 8.30 Outsourced development | No | No outsourced software development at this stage | — |
+| 7.4 Physical security monitoring | No | No physical premises with sensitive processing in scope | - |
+| 8.30 Outsourced development | No | No outsourced software development at this stage | - |
 
 **Deliverable:** Completed Statement of Applicability, control implementation plan.
 
 ---
 
-### Phase 4 — Operationalization
+### Phase 4 - Operationalization
 
 **Building blocks addressed:** 3.8 Documentation, 3.9 Communication, 3.10 Awareness, 3.11 Supplier Relationships
 
@@ -153,7 +153,7 @@ For each risk in the register, map to relevant Annex A controls and justify incl
 
 ---
 
-### Phase 5 — Monitoring & Internal Audit
+### Phase 5 - Monitoring & Internal Audit
 
 **Building blocks addressed:** 3.7 Performance/Risk/Compliance Monitoring, 3.12 Internal Audit
 
@@ -172,20 +172,20 @@ For each risk in the register, map to relevant Annex A controls and justify incl
 
 ---
 
-### Phase 6 — Review & Continual Improvement
+### Phase 6 - Review & Continual Improvement
 
 **Building blocks addressed:** 3.13 Incident Management, 3.14 Continual Improvement
 
 **Activities:**
-1. Stand up a lightweight incident response plan (Section 3.13's five-phase model: plan/prepare → recognize/accept → classify/decide → respond → lessons learned), sized for a company without a dedicated security team — e.g., the IT Lead as first responder, a simple reporting channel via a shared inbox, and a documented escalation path to the CEO for anything involving customer data.
-2. Hold the first management review, feeding findings from the internal audit, risk register changes, and any incidents into a documented set of corrective actions — the PDCA "Act" step.
+1. Stand up a lightweight incident response plan (Section 3.13's five-phase model: plan/prepare → recognize/accept → classify/decide → respond → lessons learned), sized for a company without a dedicated security team e.g., the IT Lead as first responder, a simple reporting channel via a shared inbox, and a documented escalation path to the CEO for anything involving customer data.
+2. Hold the first management review, feeding findings from the internal audit, risk register changes, and any incidents into a documented set of corrective actions - the PDCA "Act" step.
 3. Set the cadence going forward: quarterly risk register review, annual internal audit, annual management review — a realistic rhythm for a company this size, rather than the more frequent cycle a larger enterprise might run.
 
 **Deliverable:** Incident response plan, first management review minutes, continual improvement log.
 
 ---
 
-## 5. Reflection — what this project demonstrates
+## 5. Reflection - what this project demonstrates
 
 - Ability to translate a general framework (ISO/IEC 27001:2022) into a scoped, sequenced plan for a specific, resource-constrained organization rather than a generic checklist.
 - Comfort working across the "three views" the guide describes in its introduction — governance, risk, and compliance — rather than treating ISMS work as a purely technical exercise.
@@ -196,8 +196,8 @@ For each risk in the register, map to relevant Annex A controls and justify incl
 ## 6. References
 
 - ISACA Germany Chapter e.V., *Implementation Guide ISO/IEC 27001:2022* (2022)
-- ISO/IEC 27001:2022 — Information security, cybersecurity and privacy protection — Information security management systems — Requirements
-- ISO/IEC 27005:2022 — Guidance on managing information security risks
+- ISO/IEC 27001:2022 - Information security, cybersecurity and privacy protection — Information security management systems - Requirements
+- ISO/IEC 27005:2022 - Guidance on managing information security risks
 - ISO 31000:2018 — Risk management guidelines
 
 ---

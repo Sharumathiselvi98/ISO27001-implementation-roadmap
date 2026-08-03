@@ -15,7 +15,7 @@ A self-directed project applying ISO/IEC 27001:2022's ISMS building blocks to a 
 
 ## Why this scenario
 
-The risk scenarios in this report reflect real skills I've developed through hands-on work — data integrity auditing, duplicate-record detection, and process automation using scripting tools — applied here to a realistic fictional company rather than any real employer's systems or data.
+The risk scenarios in this report reflect real skills I've developed through hands-on work in data integrity auditing, duplicate-record detection, and process automation using scripting tools - applied here to a realistic fictional company rather than any real employer's systems or data.
 
 ## Background
 

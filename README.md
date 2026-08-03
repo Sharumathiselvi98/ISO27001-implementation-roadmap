@@ -1,4 +1,4 @@
-# ISO/IEC 27001:2022 Implementation Roadmap — Portfolio Project
+# ISO/IEC 27001:2022 Implementation Roadmap - Portfolio Project
 
 A self-directed project applying ISO/IEC 27001:2022's ISMS building blocks to a fictional small e-commerce company (**SMSMarket**) starting from zero, guided by the ISACA Germany Chapter Implementation Guide (2022).
 

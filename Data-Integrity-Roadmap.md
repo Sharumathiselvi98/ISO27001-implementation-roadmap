@@ -69,7 +69,7 @@ These are still in progress as of writing, tracked and coordinated with the team
 
 ## Reflection
 
-The throughline across these findings is the same pattern: **a manual, single-point process (barcode assignment, file updates, backup, licensing knowledge) breaks down at scale**, and the durable fix is usually process automation or documentation, not a one-off correction. That's the core idea behind ISO 27001's Continual Improvement building block — fixing symptoms keeps you busy; fixing root causes is what actually reduces risk over time.
+The throughline across these findings is the same pattern: **a manual, single-point process (barcode assignment, file updates, backup, licensing knowledge) breaks down at scale**, and the durable fix is usually process automation or documentation, not a one-off correction. That's the core idea behind ISO 27001's Continual Improvement building block - fixing symptoms keeps you busy; fixing root causes is what actually reduces risk over time.
 
 ---
 

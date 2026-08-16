@@ -8,13 +8,13 @@ Reference framework: ISO/IEC 27001:2022, guided by the ISACA Germany Chapter Imp
 
 ## Context
 
-This roadmap documents a set of real data-integrity and process findings, the fixes applied, and the work still ahead — organized using the ISMS "building block" structure from ISO/IEC 27001:2022. It's framed here as a fictional company (**SMSMarket**) to keep it safe to share publicly, but every finding below reflects skills and work I've actually done.
+This roadmap documents a set of real data-integrity and process findings, the fixes applied, and the work still ahead - organized using the ISMS "building block" structure from ISO/IEC 27001:2022. It's framed here as a fictional company (**SMSMarket**) to keep it safe to share publicly, but every finding below reflects skills and work I've actually done.
 
 The environment: a small e-commerce/retail operation with a website and database managed by a third-party vendor (who maintains their own security roadmap for the platform itself), and an internal admin/sales side handling product data, pricing, and inventory across several separate files.
 
 ---
 
-## Stage 1 — Diagnosis (what was found)
+## Stage 1 - Diagnosis (what was found)
 
 | # | Finding | Building block(s) | Owner |
 |---|---|---|---|
@@ -26,37 +26,37 @@ The environment: a small e-commerce/retail operation with a website and database
 
 ---
 
-## Stage 2 — Fixes implemented (resolved)
+## Stage 2 - Fixes implemented (resolved)
 
-### Finding 1 — Product identifier duplication and gaps
+### Finding 1 - Product identifier duplication and gaps
 **Action:** Built a script to systematically scan product data and identify every duplicate or missing identifier, rather than checking manually. Generated compliant new identifiers to resolve conflicts. Applied the fix consistently across the product database, spreadsheet records, and the point-of-sale system.
-**Building block:** 3.14 Continual Improvement — this addressed the root cause (variant products sharing one identifier), not just the individual conflicts as they appeared.
+**Building block:** 3.14 Continual Improvement - this addressed the root cause (variant products sharing one identifier), not just the individual conflicts as they appeared.
 **Status:** ✅ Resolved.
 
-### Finding 2 — No backup on the admin file
+### Finding 2 - No backup on the admin file
 **Action:** Raised the issue with the team; a backup process was implemented for the file going forward.
 **Status:** ✅ Resolved.
 
-### Finding 4 — Licensed asset use
+### Finding 4 - Licensed asset use
 **Action:** Proposed a lower-cost licensed alternative for marketing/design images, and documented the specific usage boundary (usable within a composed design or print output, but not exportable as a standalone image) so the rule would be clear and repeatable rather than relying on memory.
-**Building blocks:** 3.8 Documentation, 3.10 Awareness — the documentation is what makes this fix durable; without it, the same licensing risk could resurface with new staff or over time.
+**Building blocks:** 3.8 Documentation, 3.10 Awareness - the documentation is what makes this fix durable; without it, the same licensing risk could resurface with new staff or over time.
 **Status:** ✅ Documented and adopted.
 
 ---
 
-## Stage 3 — Proposed / in progress
+## Stage 3 - Proposed / in progress
 
-### Finding 3 — Manual multi-file update process
+### Finding 3 - Manual multi-file update process
 **Action:** Proposed and built a script-based automation to synchronize product data (prices, names, identifiers) across the relevant files automatically, replacing manual updates.
-**Building block:** 3.14 Continual Improvement — this is a root-cause fix (removing the manual step that caused mismatches) rather than repeatedly correcting individual mismatches after the fact.
+**Building block:** 3.14 Continual Improvement - this is a root-cause fix (removing the manual step that caused mismatches) rather than repeatedly correcting individual mismatches after the fact.
 **Status:** 🟡 Built and proposed to the team as a replacement for the manual process.
 
-### Finding 5 — Out-of-stock products remaining orderable
+### Finding 5 - Out-of-stock products remaining orderable
 **Status:** 🟡 Identified and flagged to the team as a process gap.
 
 ---
 
-## Stage 4 — Remaining open items (not yet resolved)
+## Stage 4 - Remaining open items (not yet resolved)
 
 These are still in progress as of writing, tracked and coordinated with the team via a shared task board:
 

@@ -1,22 +1,20 @@
-# ISO/IEC 27001:2022 Implementation Roadmap - Portfolio Project
+# Data Integrity & Process Improvement Roadmap — Portfolio Project
 
-A self-directed project applying ISO/IEC 27001:2022's ISMS building blocks to a fictional small e-commerce company (**SMSMarket**) starting from zero, guided by the ISACA Germany Chapter Implementation Guide (2022).
+A structured application of ISO/IEC 27001:2022's ISMS building blocks to real data-integrity and process findings, generalized as a fictional company (**SMSMarket**) to keep this safe to share publicly, guided by the ISACA Germany Chapter Implementation Guide (2022).
 
-**Read the full report:** [ISO27001-Implementation-Roadmap.md](./ISO27001-Implementation-Roadmap.md)
+**Read the full roadmap:** [Data-Integrity-Roadmap.md](./Data-Integrity-Roadmap.md)
 
 ## What this covers
 
-- Scope definition and stakeholder analysis
-- A 6-phase, 12-month implementation roadmap (Foundation → Risk Assessment → Control Selection → Operationalization → Monitoring & Audit → Continual Improvement)
-- A sample risk register with likelihood/impact scoring
-- A sample Statement of Applicability (SoA) mapping risks to Annex A controls
-- A sized-for-purpose KPI/KRI/KCI monitoring plan
-- An incident response outline for a small team with no dedicated security function
+- 5 real findings, diagnosed and mapped to specific ISO 27001 building blocks
+- Root-cause fixes applied (not just symptom patches) for resolved items
+- Clear status tracking: resolved, in progress, and open
+- A reflection on the common pattern behind the findings — manual single-point processes breaking down at scale
 
 ## Why this scenario
 
-The risk scenarios in this report reflect real skills I've developed through hands-on work in data integrity auditing, duplicate-record detection, and process automation using scripting tools - applied here to a realistic fictional company rather than any real employer's systems or data.
+This reflects skills I've developed in practice — data integrity auditing, root-cause analysis, and process automation — organized here using ISO 27001's structure so the reasoning behind each finding is traceable, not just a list of fixes.
 
 ## Background
 
-Built while studying for a Master's in Cybersecurity and Artificial Intelligence at ESIEE Paris, as practical application of ISO/IEC 27001:2022 concepts.
+Built while studying for a Master's in Cybersecurity and Artificial Intelligence at ESIEE Paris.
